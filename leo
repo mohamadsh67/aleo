@@ -3,7 +3,7 @@
 ------------------------------------------
 
 ---------------------------------------------
-  install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
+   curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
 -------------------------------------------------
 cd $HOME
 ver="1.18.3"
