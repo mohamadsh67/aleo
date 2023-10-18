@@ -10,7 +10,6 @@ bash_profile
 
 ---------------------------------------------------
 bash_profile
-
 --------------------------------------
 rm -rf celestia-app
 rm -rf celestia-app
