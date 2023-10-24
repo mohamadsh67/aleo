@@ -12,7 +12,7 @@ source $HOME/.bash_profile
 
 --------------------------------------
 
-rm -rf celestia-app
+
 git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
 git checkout v0.6.0
