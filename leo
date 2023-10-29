@@ -16,7 +16,6 @@ source $HOME/.bash_profile
 
 
 git checkout v0.6.0
-make install
 celestia-appd version
 -------------------------------------------------
 celestia-appd version
