@@ -8,14 +8,6 @@ source $HOME/.bash_profile
  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
 
 
----------------------------------------------------
-
---------------------------------------
-
-
-
-
-
 celestia-appd version
 -------------------------------------------------
 celestia-appd version
