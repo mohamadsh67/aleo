@@ -10,7 +10,7 @@ source $HOME/.bash_profile
 
 celestia-appd version
 -------------------------------------------------
-celestia-appd version
+
 
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
