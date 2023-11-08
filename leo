@@ -5,8 +5,6 @@
 
  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
 
--------------------------------------------------
-
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
 
