@@ -142,7 +142,7 @@ curl -s localhost:26657/status | grep block_height
 باید منتظر بمانید تا گره Validator شما همه بلوک‌ها را از زنجیره بلوکی سلستیا دانلود کند
 
 ---------------------------------------------------
-
+celestia-appd keys add $CELESTIA_WALLET
 celestia-appd keys add $CELESTIA_WALLET
 
 اطلاعات دریافتی این بخش رو توی نوت پد برای خودتون ذخیره کنید
