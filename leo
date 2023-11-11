@@ -1,11 +1,11 @@
 
  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
 ---------------------------------------------
-
-
- "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 به عنوان مثال :
+
+ "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
+
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
 
@@ -15,11 +15,11 @@ git clone https://github.com/celestiaorg/networks.git
 
 --------------------------
 CELESTIA_WALLET="MY_WALLET"
-CELESTIA_CHAIN="mamaki"
+
 
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 به عنوان مثال :
-
+CELESTIA_CHAIN="mamaki"
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
 CELESTIA_CHAIN="mamaki"
@@ -34,7 +34,7 @@ source $HOME/.bash_profile
 به عنوان مثال :
 ------------------------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
-
+CELESTIA_CHAIN="mamaki"
 -------------------------------------
 cp $HOME/networks/mamaki/genesis.json $HOME/.celestia-app/config/
 
