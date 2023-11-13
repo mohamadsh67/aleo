@@ -14,7 +14,7 @@ rm -rf networks
 git clone https://github.com/celestiaorg/networks.git
 
 --------------------------
-CELESTIA_WALLET="MY_WALLET"
+
 CELESTIA_WALLET="MY_WALLET"
 
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
