@@ -5,14 +5,14 @@
 به عنوان مثال :
 
  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
-
+rm -rf networks
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
 CELESTIA_WALLET="MY_WALLET"
 -------------------------------
-rm -rf networks
-git clone https://github.com/celestiaorg/networks.git
 
+git clone https://github.com/celestiaorg/networks.git
+rm -rf networks
 --------------------------
 
 CELESTIA_WALLET="MY_WALLET"
