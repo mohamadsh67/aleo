@@ -13,7 +13,8 @@ CELESTIA_WALLET="MY_WALLET"
 git clone https://github.com/celestiaorg/networks.git
 rm -rf networks
 --------------------------
-
+  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
+به عنوان مثال :
 CELESTIA_WALLET="MY_WALLET"
 
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
