@@ -9,9 +9,9 @@
 git clone https://github.com/celestiaorg/networks
 CELESTIA_WALLET="MY_WALLET"
 -------------------------------
-
-git clone https://github.com/celestiaorg/networks.git
 rm -rf networks
+git clone https://github.com/celestiaorg/networks.git
+
 --------------------------
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 به عنوان مثال :
