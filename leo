@@ -1,7 +1,7 @@
 
- "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
+ 
 ---------------------------------------------
-  
+  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
 
  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
 -------------------------------------------
