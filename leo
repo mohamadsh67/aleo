@@ -10,10 +10,10 @@ CELESTIA_WALLET="MY_WALLET"
 -------------------------------
 
 git clone https://github.com/celestiaorg/networks.git
-به عنوان مثال :
+
 --------------------------
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
-به عنوان مثال :
+
 CELESTIA_WALLET="MY_WALLET"
 
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
@@ -23,7 +23,7 @@ CELESTIA_NODENAME="amir"
 CELESTIA_WALLET="amir8372"
 CELESTIA_CHAIN="mamaki"
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
-به عنوان مثال :
+
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
