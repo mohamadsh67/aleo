@@ -9,9 +9,8 @@ git clone https://github.com/celestiaorg/networks
 -------------------------------
 
 git clone https://github.com/celestiaorg/networks.git
-
 --------------------------
-  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
+  
 
 CELESTIA_WALLET="MY_WALLET"
 
