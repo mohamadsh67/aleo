@@ -7,8 +7,6 @@
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
 -------------------------------
-
-git clone https://github.com/celestiaorg/networks.git
 --------------------------
   
 
