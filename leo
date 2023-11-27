@@ -6,10 +6,7 @@
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
 -------------------------------
---------------------------
   
-
-  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 CELESTIA_CHAIN="mamaki"
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
