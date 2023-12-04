@@ -16,11 +16,9 @@ source $HOME/.bash_profile
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 ------------------------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
-CELESTIA_CHAIN="mamaki"
--------------------------------------
+
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
-
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 ---------------------------------------------
 BOOTSTRAP_PEERS=$(curl -sL https://raw.githubusercontent.com/celestiaorg/networks/master/mamaki/bootstrap-peers.txt | tr -d '\n')
