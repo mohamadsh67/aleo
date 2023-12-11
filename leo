@@ -8,8 +8,6 @@ CELESTIA_WALLET="amir8372"
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
-source $HOME/.bash_profile
-  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 ------------------------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 ---------------------------------------
