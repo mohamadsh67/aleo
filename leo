@@ -12,7 +12,6 @@ celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
   داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 ---------------------------------------------
-BOOTSTRAP_PEERS=$(curl -sL https://raw.githubusercontent.com/celestiaorg/networks/master/mamaki/bootstrap-peers.txt | tr -d '\n')
 
 
 ------------------------------------------------
@@ -26,6 +25,7 @@ max_connections=50
 max_num_inbound_peers=40 
 max_num_outbound_peers=10 
 
+BOOTSTRAP_PEERS=$(curl -sL https://raw.githubusercontent.com/celestiaorg/networks/master/mamaki/bootstrap-peers.txt | tr -d '\n')
 
 ----------------------------------------------------------------
 sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
