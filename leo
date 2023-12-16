@@ -13,14 +13,12 @@ sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/con
 
 ---------------------------------------------
 
-  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 ------------------------------------------------
 sed -i.bak -e "s/^bootstrap-peers *=.*/bootstrap-peers = \"$BOOTSTRAP_PEERS\"/" $HOME/.celestia-app/config/config.toml
 
 -----------------------------------------------------------
 sed -i 's/timeout-commit = ".*/timeout-commit = "25s"/g' $HOME/.celestia-app/config/config.toml
 sed -i 's/peer-gossip-sleep-duration *=.*/peer-gossip-sleep-duration = "2ms"/g' $HOME/.celestia-app/config/config.toml
-max_connections=50
 -----------------------------------------------------------------
 max_num_inbound_peers=40 
 max_num_outbound_peers=10 
