@@ -9,7 +9,6 @@ echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
-
 ------------------------------------------------
 sed -i.bak -e "s/^bootstrap-peers *=.*/bootstrap-peers = \"$BOOTSTRAP_PEERS\"/" $HOME/.celestia-app/config/config.toml
 -----------------------------------------------------------
