@@ -26,9 +26,6 @@ s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.celes
 --------------------------------------------
 sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $HOME/.celestia-app/config/app.toml
 ---------------------------------------------------
-celestia-appd tendermint unsafe-reset-all --home $HOME/.celestia-app
-
----------------------------------------------------
 
 celestia-appd config chain-id $CELESTIA_CHAIN
 celestia-appd config keyring-backend test
