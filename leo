@@ -19,8 +19,6 @@ sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
 s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peers/;\
 s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/;\
 s/^max-connections *=.*/max-connections = $max_connections/" $HOME/.celestia-app/config/config.toml
-celestia-appd config keyring-backend test
-
 -------------------------------------------------------
 tee $HOME/celestia-appd.service > /dev/null <<EOF
 [Unit]
@@ -30,7 +28,6 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
   User=$USER
   ExecStart=$(which celestia-appd) start
   Restart=on-failure
-  RestartSec=3
   LimitNOFILE=65535
 [Install]
   WantedBy=multi-user.target
