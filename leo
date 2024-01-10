@@ -3,7 +3,6 @@
 ---------------------------------------------
  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
 ----------------------------------------------------------
-echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
