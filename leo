@@ -15,7 +15,6 @@ s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/
 -------------------------------------------------------
 [Service]
   User=$USER
-  ExecStart=$(which celestia-appd) start
   Restart=on-failure
   LimitNOFILE=65535
 [Install]
