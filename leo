@@ -17,9 +17,6 @@ s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/
   Restart=on-failure
   LimitNOFILE=65535
 [Install]
-  WantedBy=multi-user.target
-EOF
-
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
