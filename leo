@@ -14,7 +14,6 @@ s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peers/;\
 s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/;\
 -------------------------------------------------------
 [Service]
-  Restart=on-failure
   LimitNOFILE=65535
 [Install]
 ---------------------------------------------------
